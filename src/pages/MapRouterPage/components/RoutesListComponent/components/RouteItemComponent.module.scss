@@ -1,0 +1,27 @@
+%item {
+    margin-bottom: 5px;
+    margin-inline: 10px;
+    border-radius: 25px;
+    height: 10vh;
+
+}
+
+.itemDefault {
+    @extend %item;
+    &:hover {
+        opacity: 100%;
+    }
+
+    background-color: aliceblue;
+    opacity: 90%;
+}
+
+.itemClicked {
+    @extend %item;
+    &:hover {
+        opacity: 100%;
+    }
+    
+    background-color: darkcyan;
+    opacity: 90%;
+}
